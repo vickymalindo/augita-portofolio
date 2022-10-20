@@ -14,15 +14,14 @@ const Review = () => {
   }, [])
 
   return (
-    <div className='bg-light-blue p-3'>
-      {/* FIXME: benerin judulnya biar ga kejauhan */}
+    <div className='bg-light-blue px-3 py-8 sm:p-3 sm:mb-0'>
       <div className={`flex justify-center items-center flex-col h-screen gap-4 py-0 px-5`}>
         <h3 className={`${style.title_partner} text-center text-[24px] sm:text-[37px] font-extrabold lg:text-6xl mt-10 lg:mt-4 mb-16`}>What’s My Partner Said</h3>
         {index === 1 ?
-          <div className={`w-[400px] sm:w-full flex items-center justify-evenly`}>
-            <div className="flex items-center justify-center flex-col sm:flex-row py-2 px-5 gap-5">
+          <div className={`sm:w-full`}>
+            <div className="flex items-center justify-center flex-col sm:flex-row py-2 md:px-5 gap-5">
               <img src={Vicky} alt="Vicky" className='w-36 h-36 sm:w-60 sm:h-60 lg:w-72 lg:h-72' />
-              <div className='p-2 px-10 lg:w-2/3'>
+              <div className='py-2 px-10 lg:w-2/3'>
                 <p className='text-justify'>
                   “Since I collaborated with her, I've seen a willingness to learn more about UI and UX. It can be seen from the initial design to the current design that there are many changes to the design that she made. She is also a creative person in my opinion. Therefore, I recommend her and so excited to collaborate for the next project.”
                 </p>
@@ -35,10 +34,10 @@ const Review = () => {
             </div>
           </div>
           :
-          <div className={`${style.item} w-[400px] sm:w-full flex items-center justify-evenly`}>
-            <div className='flex items-center justify-center flex-col sm:flex-row py-2 px-4 gap-5'>
+          <div className={`sm:w-full`}>
+            <div className='flex items-center justify-center flex-col sm:flex-row py-2 md:px-4 gap-5'>
               <img src={Alifa} alt="Alifa" className='w-36 h-36 sm:w-60 sm:h-60 lg:w-72 lg:h-72' />
-              <div className='p-2 px-10 lg:w-2/3'>
+              <div className='py-2 px-10 lg:w-2/3'>
                 <p className='text-justify'>
                   “Augita is a person who can manage time well. She is diligent and keeps an eye on the scheduled deadlines. I had saw how she the list of her works that were arranged and given a separate deadline before the time that should be submitted. During the Thesis/Final Project, she conceptualized the workings of our project and designed the application for me.”
                 </p>

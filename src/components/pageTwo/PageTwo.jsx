@@ -30,8 +30,8 @@ const PageTwo = () => {
     <div className='bg-light-blue'>
       <Nav />
       <h3 className={`${style.title_work} text-center text-[30px] font-extrabold sm:text-5xl lg:text-6xl mt-[100px]`}>How I Work</h3>
-      <TwoImg img1={mart} img2={weather} title='UI/UX Design' link1='https://nyunyumart.netlify.app/' link2='https://nyussweather.netlify.app/' />
-      <TwoImg img1={Beauty} img2={Nyummyl} title='Feed Instagram' link1='https://www.instagram.com/nature.allbeauty/' link2='https://www.instagram.com/nyummyl/' />
+      <TwoImg img1={mart} img2={weather} title='UI/UX Design' link1='https://nyunyumart.netlify.app/' link2='https://nyussweather.netlify.app/' view='View Website' />
+      <TwoImg img1={Beauty} img2={Nyummyl} title='Feed Instagram' link1='https://www.instagram.com/nature.allbeauty/' link2='https://www.instagram.com/nyummyl/' view='View Instagram' />
       <SixImg title='Illustration Design' img1={Wolf} img2={Girl} img3={Fishing} img4={Face} img5={Mount} img6={People} />
       <SixImg title='Logo Design' img1={Masker} img2={LogoNyummyl} img3={Ding} img4={SWeather} img5={NyusMart} img6={Dong} />
       <ThreeImg title='College’s Event Design' img1={Left} img2={Middle} img3={Right} />

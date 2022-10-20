@@ -18,7 +18,7 @@ const Certificate = () => {
   }, [])
 
   return (
-    <div className='bg-light-blue'>
+    <div className='bg-light-blue py-5 sm:py-0'>
       <div className='w-full flex justify-center items-center flex-col gap-3'>
         <div className='md:p-16'>
           <h3 className={`${style.title_partner} text-center text-[30px] sm:text-[44px] lg:text-6xl font-extrabold lg:mt-8`}>My Certificate</h3>
