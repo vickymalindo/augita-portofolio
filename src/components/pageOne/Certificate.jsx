@@ -44,7 +44,7 @@ const Certificate = () => {
                         <img src={Certif5} alt="Certif5" className='w-full h-full' />
                       </div>
                       :
-                      <div className='w-[390px] sm:w-[550px] sm:h-[450px] lg:w-[1100px] lg:h-[640px] box-border h-96 px-3'>
+                      <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1100px] lg:h-[640px] box-border h-96 px-3'>
                         <img src={Certif6} alt="Certif6" className='w-full h-full' />
                       </div>
             }

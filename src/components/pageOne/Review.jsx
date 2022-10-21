@@ -15,8 +15,8 @@ const Review = () => {
 
   return (
     <div className='bg-light-blue px-3 py-8 sm:p-3 sm:mb-0'>
+      <h3 className={`${style.title_partner} text-center text-[24px] sm:text-[37px] font-extrabold lg:text-6xl mt-10 lg:mt-4 mb-16`}>What’s My Partner Said</h3>
       <div className={`flex justify-center items-center flex-col h-screen gap-4 py-0 px-5`}>
-        <h3 className={`${style.title_partner} text-center text-[24px] sm:text-[37px] font-extrabold lg:text-6xl mt-10 lg:mt-4 mb-16`}>What’s My Partner Said</h3>
         {index === 1 ?
           <div className={`sm:w-full`}>
             <div className="flex items-center justify-center flex-col sm:flex-row py-2 md:px-5 gap-5">

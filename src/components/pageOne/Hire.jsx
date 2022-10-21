@@ -27,10 +27,10 @@ const Hire = () => {
           <div className='p-4'>
             <img src={Colab} alt="Colab" className='w-36 h-28 m-auto' />
             <div className='mt-4'>
-              <h3 className='text-center text-lg'>
+              <h3 className='text-center mt-11 sm:mt-0 text-lg'>
                 Collaborative
               </h3>
-              <p className='text-justify mt-4 sm:mt-[42px] lg:mt-4'>
+              <p className='text-justify mt-[42px] sm:mt-[42px] lg:mt-4'>
                 I can work in a team and also individually. In a team, I usually collaborate with my front-end friends, beside I’m the designer I also able to discuss for the idea in more detail to do our project.
               </p>
             </div>
