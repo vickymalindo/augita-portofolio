@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='text-center font-medium'>
-          <p>Copyright © 2022 by Augita Yasmin</p>
+          <p className='text-xs sm:text-base'>Copyright © 2022 by Augita Yasmin</p>
         </div>
       </div>
     </div>

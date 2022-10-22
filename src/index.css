@@ -15,3 +15,7 @@ body {
   font-family: 'Archivo', sans-serif;
   box-sizing: border-box;
 }
+
+p {
+  color: #474A5F;
+}

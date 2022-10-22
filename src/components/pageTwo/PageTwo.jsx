@@ -1,5 +1,5 @@
 import style from '../pageOne/PageOne.module.css'
-import Nav from '../utilities/Nav'
+import NavTwo from '../utilities/NavTwo'
 import Footer from '../utilities/Footer'
 import TwoImg from './TwoImg'
 import SixImg from './SixImg'
@@ -28,7 +28,7 @@ import Tools from './Tools'
 const PageTwo = () => {
   return (
     <div className='bg-light-blue'>
-      <Nav />
+      <NavTwo />
       <h3 className={`${style.title_work} text-center text-[30px] font-extrabold sm:text-5xl lg:text-6xl mt-[100px]`}>How I Work</h3>
       <TwoImg img1={mart} img2={weather} title='UI/UX Design' link1='https://nyunyumart.netlify.app/' link2='https://nyussweather.netlify.app/' view='View Website' />
       <TwoImg img1={Beauty} img2={Nyummyl} title='Feed Instagram' link1='https://www.instagram.com/nature.allbeauty/' link2='https://www.instagram.com/nyummyl/' view='View Instagram' />
