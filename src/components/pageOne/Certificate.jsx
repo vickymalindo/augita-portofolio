@@ -18,33 +18,33 @@ const Certificate = () => {
   }, [])
 
   return (
-    <div className='bg-light-blue py-5 sm:py-0'>
+    <div className='w-full bg-light-blue py-5 sm:py-0'>
       <div className='w-full flex justify-center items-center flex-col gap-3'>
-        <div className='md:p-12 lg:p-16'>
+        <div className='md:p-12'>
           <h3 className={`${style.title_partner} text-center text-[30px] sm:text-[44px] lg:text-6xl font-extrabold lg:mt-8`}>My Certificate</h3>
           <div className='mt-12 md:px-12'>
             {index === 1 ?
-              <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1100px] lg:h-[640px] box-border h-96 px-3'>
+              <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1000px] lg:h-[640px] box-border h-96 px-3'>
                 <img src={Certif1} alt="Certif1" className='w-full h-full' />
               </div>
               : index === 2 ?
-                <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1100px] lg:h-[640px] box-border h-96 px-3'>
+                <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1000px] lg:h-[640px] box-border h-96 px-3'>
                   <img src={Certif2} alt="Certif2" className='w-full h-full' />
                 </div>
                 : index === 3 ?
-                  <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1100px] lg:h-[640px] box-border h-96 px-3'>
+                  <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1000px] lg:h-[640px] box-border h-96 px-3'>
                     <img src={Certif3} alt="Certif3" className='w-full h-full' />
                   </div>
                   : index === 4 ?
-                    <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1100px] lg:h-[640px] box-border h-96 px-3'>
+                    <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1000px] lg:h-[640px] box-border h-96 px-3'>
                       <img src={Certif4} alt="Certif4" className='w-full h-full' />
                     </div>
                     : index === 5 ?
-                      <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1100px] lg:h-[640px] box-border h-96 px-3'>
+                      <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1000px] lg:h-[640px] box-border h-96 px-3'>
                         <img src={Certif5} alt="Certif5" className='w-full h-full' />
                       </div>
                       :
-                      <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1100px] lg:h-[640px] box-border h-96 px-3'>
+                      <div className='w-[340px] sm:w-[550px] sm:h-[450px] lg:w-[1000px] lg:h-[640px] box-border h-96 px-3'>
                         <img src={Certif6} alt="Certif6" className='w-full h-full' />
                       </div>
             }
