@@ -9,11 +9,11 @@ const UiUx = ({ img1, img2, title, link1, link2, view }) => {
         <div className='flex gap-2 justify-between items-center sm:mt-3'>
           <div className='w-1/2'>
             <img src={img1} alt={img1} className='w-full' />
-            <a href={link1} className='inline-block mt-3 font-medium'><BsLink45Deg className='inline-block mr-1' />{view}</a>
+            <a href={link1} className='inline-block mt-3 text-[11px] sm:text-base font-medium'><BsLink45Deg className='inline-block mr-1' />{view}</a>
           </div>
           <div className='w-1/2'>
             <img src={img2} alt={img2} className='w-full' />
-            <a href={link2} className='inline-block mt-3 font-medium'><BsLink45Deg className='inline-block mr-1' />{view}</a>
+            <a href={link2} className='inline-block mt-3 text-[11px] sm:text-base font-medium'><BsLink45Deg className='inline-block mr-1' />{view}</a>
           </div>
         </div>
       </div>
